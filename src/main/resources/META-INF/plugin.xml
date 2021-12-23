@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>com.xams.intellij.plugin.navicat.resetter</id>
+    <name>Navicat Resetter</name>
+    <depends>com.intellij.modules.platform</depends>
+    <description>
+        <![CDATA[
+      Navicat Resetter........................
+    ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+      <ul>
+        <li><b>2.0.0</b>  todo......</li>
+        <li><b>1.1</b>  todo......</li>
+        <li><b>1.0</b> todo......</li>
+      </ul>
+    ]]>
+    </change-notes>
+
+
+    <actions>
+
+        <action id="com.xams.intellij.plugin.navicat.resetter.action.NavicatResetterAction"
+                class="com.xams.intellij.plugin.navicat.resetter.action.NavicatResetterAction"
+                text="Navicat Reset">
+            <add-to-group group-id="HelpMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
