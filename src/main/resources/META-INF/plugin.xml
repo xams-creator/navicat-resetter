@@ -7,6 +7,7 @@
       Navicat Resetter........................
     ]]>
     </description>
+    <vendor/>
     <change-notes>
         <![CDATA[
       <ul>
@@ -19,11 +20,19 @@
 
 
     <actions>
-
         <action id="com.xams.intellij.plugin.navicat.resetter.action.NavicatResetterAction"
                 class="com.xams.intellij.plugin.navicat.resetter.action.NavicatResetterAction"
                 text="Navicat Reset">
             <add-to-group group-id="HelpMenu" anchor="last"/>
         </action>
     </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+<!--        <projectService-->
+<!--            configurationSchemaKey="NavicatResetterLinuxServiceImpl"-->
+<!--            serviceInterface="com.xams.intellij.plugin.navicat.resetter.service.NavicatResetterService"-->
+<!--            serviceImplementation="com.xams.intellij.plugin.navicat.resetter.service.impl.NavicatResetterComposeService"-->
+<!--        />-->
+    </extensions>
+
 </idea-plugin>
