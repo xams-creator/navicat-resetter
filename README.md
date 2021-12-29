@@ -1,24 +1,44 @@
+# navicat-resetter
 
-## run
+跨平台且易用的Navicat产品重置试用期的IDEA插件
+
+---
+
+## Support
+
+- windows
+    - navicat for mysql 15x
+- mac(暂不支持)
+- linux(暂不支持)
+
+---
+## Usage
+
+![image](public/image/step1.png)
+![image](public/image/step2.png)
+![image](public/image/step3.png)
+
+---
+## Development
+
+### Environment
+ - Gradle
+ - Groovy
+
+
+### Run
+
 ```
-    gradle runIde
-
+gradle runIde
 ```
 
 
-
-## build
+### Build Plugin
 ```
-    gradle buildPlugin
-
+gradle buildPlugin
 ```
 
-## apply
-```
-    把 build 目录里的 distributions 下的 zip包 直接拖到 IDE 编辑区
-```
-
-## docs
+## IDEA Docs
 ```
     https://plugins.jetbrains.com/docs/intellij/plugin-content.html
 ```
