@@ -13,7 +13,7 @@ plugins {
 }
 
 group 'com.xams.intellij.plugin'
-version '0.0.1'
+version '0.0.2'
 
 //sourceCompatibility = 11
 
@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly "org.codehaus.groovy:groovy:3.0.8"
+    compile "org.codehaus.groovy:groovy:3.0.8"
 }
 
 patchPluginXml {

@@ -8,8 +8,11 @@
 
 - windows
     - navicat for mysql 15x
+    - navicat for mysql 16x
 - mac(暂不支持)
-- linux(暂不支持)
+- linux
+    - navicat for mysql 15x
+    - navicat for mysql 16x
 
 ---
 ## Usage

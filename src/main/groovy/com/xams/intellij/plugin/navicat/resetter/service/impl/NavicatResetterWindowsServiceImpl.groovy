@@ -1,12 +1,8 @@
 package com.xams.intellij.plugin.navicat.resetter.service.impl
 
-import com.intellij.notification.NotificationType
-import com.intellij.notification.Notifications
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.util.SystemInfo
-import com.xams.intellij.plugin.navicat.resetter.common.Constants
-import com.xams.intellij.plugin.navicat.resetter.common.enums.NotificationContentEnums
 import com.xams.intellij.plugin.navicat.resetter.service.NavicatResetterService
 import com.xams.intellij.plugin.navicat.resetter.util.RegSimpleCommandExecutor
 
@@ -35,15 +31,7 @@ final class NavicatResetterWindowsServiceImpl implements NavicatResetterService 
                 it, "/f"
             ])
         }
-
-        Notifications.Bus.notify(
-            Constants.GROUP.createNotification(
-                NotificationContentEnums.OK.getValue(), NotificationType.INFORMATION
-            ),
-            project
-        )
     }
-
 
     List<String> searchNavicat() {
         List<String> regs = []

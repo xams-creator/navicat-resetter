@@ -18,5 +18,4 @@ final class NavicatResetterMacServiceImpl implements NavicatResetterService {
         println('mac os')
     }
 
-
 }

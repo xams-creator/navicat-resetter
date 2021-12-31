@@ -15,8 +15,10 @@ final class NavicatResetterLinuxServiceImpl implements NavicatResetterService {
 
     @Override
     void apply() {
-        println('linux')
+        File file = new File(System.getProperty('user.home') + '/.config/navicat/MySQL')
+        if (file.isDirectory() && file.exists()) {
+            file.deleteDir()
+        }
     }
-
 
 }
